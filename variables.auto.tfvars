@@ -1,0 +1,10 @@
+gcp_creds = "kubernetes-terraform-board-26449e762949.json"
+gcp_project = "kubernetes-terraform-board"
+region = "us-central1"
+gke_zone = ["us-central1-a"]
+gke_regional = false
+gke_network = "default"
+gke_subnetwork = "default"
+gke_service_account = "terraform-sa-kb@kubernetes-terraform-board.iam.gserviceaccount.com"
+gke_cluster = "jkv-cluster"
+gke_nodepool = "jkv-default-nodepool"
